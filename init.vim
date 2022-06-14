@@ -47,6 +47,7 @@ nnoremap <silent><c-c> <Cmd>exe v:count1 . "ToggleTerm"<cr>
 " Plugin config
 lua require('plugins')
 nnoremap <silent> a <cmd>Telescope find_files<CR>
+nnoremap <leader>ff <cmd>Telescope find_files<cr>
 
 " let g:NERDTreeShowHidden=1
 nnoremap <silent> <C-a> :NERDTreeToggle<CR>
