@@ -1,7 +1,7 @@
 set hidden
+set background=dark
 
 set mouse=a
-
 set number relativenumber
 set numberwidth=2
 set clipboard+=unnamedplus
