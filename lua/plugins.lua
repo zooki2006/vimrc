@@ -8,7 +8,6 @@ return require('packer').startup(function()
   use 'wbthomason/packer.nvim'
   use 'jsit/toast.vim'
   use 'preservim/nerdtree'
-  use 'ap/vim-css-color'
   use {
   'nvim-telescope/telescope.nvim',
   requires = { {'nvim-lua/plenary.nvim'} }
