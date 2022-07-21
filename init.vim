@@ -2,6 +2,7 @@ set hidden
 set background=dark
 
 set mouse=a
+"set termguicolors
 set number relativenumber
 set numberwidth=2
 set clipboard+=unnamedplus
@@ -13,6 +14,7 @@ set path+=**
 set wildmenu
 
 
+cmap w!! w !sudo tee > /dev/null %
 let mapleader=" "
 
 " Vertically center in insert mode
