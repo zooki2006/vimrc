@@ -47,11 +47,11 @@ nnoremap <silent><c-c> <Cmd>exe v:count1 . "ToggleTerm"<cr>
 "call plug#end()
 
 " Plugin config
-lua require('plugins')
-nnoremap <silent> a <cmd>Telescope find_files<CR>
-nnoremap <leader>ff <cmd>Telescope find_files<cr>
+"lua require('plugins')
+"nnoremap <silent> a <cmd>Telescope find_files<CR>
+"nnoremap <leader>ff <cmd>Telescope find_files<cr>
 " let g:NERDTreeShowHidden=1
-nnoremap <silent> <C-a> :NERDTreeToggle<CR>
+"nnoremap <silent> <C-a> :NERDTreeToggle<CR>
 " nnoremap <silent> <C-n> :set wrap!<CR>
 " set statusline+=%{get(b:,'gitsigns_status','')}
 
@@ -68,5 +68,5 @@ nnoremap <silent> <C-a> :NERDTreeToggle<CR>
 "imap <right> <nop>
 set ve+=onemore
 " colorscheme tokyonight
-colorscheme toast
+"colorscheme toast
 " colorscheme slate
