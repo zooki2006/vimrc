@@ -38,7 +38,8 @@ nnoremap <silent> <C-Up> :tabnew<CR>
 nnoremap <silent> <C-Down> :tabclose<CR>
 
 
-nnoremap <silent><c-c> <Cmd>exe v:count1 . "ToggleTerm"<cr>
+"nnoremap <silent><c-c> <Cmd>exe v:count1 . "ToggleTerm"<cr>
+
 "call plug#begin('~/.config/nvim/plugged')
 "Plug 'vimwiki/vimwiki'
 "Plug 'preservim/nerdtree'
@@ -56,17 +57,18 @@ nnoremap <silent><c-c> <Cmd>exe v:count1 . "ToggleTerm"<cr>
 " set statusline+=%{get(b:,'gitsigns_status','')}
 
 " Disable Arrow keys in Normal mode
-"map <up> <nop>
-"map <down> <nop>
-"map <left> <nop>
-"map <right> <nop>
+" map <up> <nop>
+" map <down> <nop>
+" map <left> <nop>
+" map <right> <nop>
 
 " Disable Arrow keys in Insert mode
-"imap <up> <nop>
-"imap <down> <nop>
-"imap <left> <nop>
-"imap <right> <nop>
+" imap <up> <nop>
+" imap <down> <nop>
+" imap <left> <nop>
+" imap <right> <nop>
 set ve+=onemore
 " colorscheme tokyonight
 "colorscheme toast
 " colorscheme slate
+
